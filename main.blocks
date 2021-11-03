@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="^$YTAluR|2ClYM3QZ4:y">distance</variable></variables><block type="pxt-on-start" id="5fa5Zmjzm|%,t*D7/Ebv" x="0" y="0"/><block type="device_forever" id="f@Jm;r|Ld,`vo`(c8]U-" x="199" y="0"><statement name="HANDLER"><block type="variables_set" id="[jIpG%EP8Ua^e+rmEA^+"><field name="VAR" id="^$YTAluR|2ClYM3QZ4:y">distance</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="sonar_ping" id="xAx/;c3X4K}bDz}?r:O|"><field name="trig">DigitalPin.P0</field><field name="echo">DigitalPin.P1</field><field name="unit">PingUnit.Centimeters</field></block></value><next><block type="controls_if" id="IZHIe(Ojn~LdEyec7N2z"><mutation elseif="4"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="PC{W@#fTrLzt3!1(o4ZB"><field name="OP">LTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="cI9$%|Avt:?@765HAnT)"><field name="VAR" id="^$YTAluR|2ClYM3QZ4:y">distance</field></block></value><value name="B"><shadow type="math_number" id="sal,/9nJ{E1dR%hpFX/U"><field name="NUM">5</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="vHotU5+?@m$=p]t_,4U5"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # # # # #
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="FwQ0wPp(%zuAC0Kd4l.="><field name="OP">LTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="4_5_-DE8cfJZZ3PQ@YA-"><field name="VAR" id="^$YTAluR|2ClYM3QZ4:y">distance</field></block></value><value name="B"><shadow type="math_number" id="^`UW6pfdQvJ3f[oiOO!1"><field name="NUM">10</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="Yl+Sn#dwTCX_v8FpP)GX"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><value name="IF2"><block type="logic_compare" id="TYdQLJ{yVbEs0SzO!J+L"><field name="OP">LTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="rI]-l9;d`5z!^4I}RcY7"><field name="VAR" id="^$YTAluR|2ClYM3QZ4:y">distance</field></block></value><value name="B"><shadow type="math_number" id="gX@pN@/RUs+$7[U9a1eO"><field name="NUM">15</field></shadow></value></block></value><statement name="DO2"><block type="device_show_leds" id="DV(hBvel^L]OU!=18+($"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><value name="IF3"><block type="logic_compare" id="0[J/4qEqT]IvWQr};)xo"><field name="OP">LTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="qpLI4I?dd_s[3D[8dWi9"><field name="VAR" id="^$YTAluR|2ClYM3QZ4:y">distance</field></block></value><value name="B"><shadow type="math_number" id="i4+4sacbKSs+a(p6Kyl9"><field name="NUM">20</field></shadow></value></block></value><statement name="DO3"><block type="device_show_leds" id="G%:g$)hJy+U/-u$X1={]"><field name="LEDS">`
+        . . . . . 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><value name="IF4"><block type="logic_compare" id="I=0X}+y%L;=4$e*%5Q[T"><field name="OP">LTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="EJ@Z;jF-kc}$TmjgA-nQ"><field name="VAR" id="^$YTAluR|2ClYM3QZ4:y">distance</field></block></value><value name="B"><shadow type="math_number" id="sSdCr+1)$n3N4s[4$t%j"><field name="NUM">25</field></shadow></value></block></value><statement name="DO4"><block type="device_show_leds" id="-1@b?cdv3Cu8|t-kJZe,"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement></block></next></block></statement></block></xml>
